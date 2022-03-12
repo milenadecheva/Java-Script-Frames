@@ -1,0 +1,14 @@
+.grid-song-container {
+    .song-overview {
+        height: 115px;
+        overflow: hidden;
+    }
+}
+
+.favorite-icon {
+    color: red;
+    cursor: pointer;
+    &.active {
+        color: rgb(60, 255, 0);
+    }
+}
